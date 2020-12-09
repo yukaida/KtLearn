@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.yukaida.kotlinlearning.TitleLayout
+        android:id="@+id/main_titlelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/main_TestView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/main_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <ProgressBar
+        android:id="@+id/main_progress"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:max="100"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+
+    <ImageView
+        android:id="@+id/main_imageView"
+        android:background="@drawable/pic_message"
+        android:layout_width="match_parent"
+        android:tooltipText="test"
+        android:layout_height="120dp" />
+</LinearLayout>
