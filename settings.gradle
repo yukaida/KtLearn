@@ -1,3 +1,5 @@
+include ':broadcasttest'
+include ':fragmentpractice'
 include ':fragmentmodule'
 include ':app'
 rootProject.name = "KotlinLearning"
